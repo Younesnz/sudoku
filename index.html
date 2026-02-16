@@ -6,11 +6,40 @@
     <title>Sudoku</title>
 
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sudoku.css">
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
   rel="stylesheet"/>
 </head>
 <body>
+    <nav class="navbar">
+        <h1>Sudoku</h1>
+        <ul class="links">
+            <li><a class="navlink" href="#">Home</a></li>
+            <li><a class="navlink" href="#">Select Game</a></li>
+            <li>
+                <div class="difficulty">
+                    <a href="#" class="difficulty-easy">
+                        <i class="ri-user-smile-line"></i> <span>Easy</span>
+                    </a>
+                    <a href="#" class="difficulty-hard selected">
+                        <i class="ri-skull-2-line"></i> <span>Hard</span>
+                    </a>
+                </div>
+            </li>
+            <li><a class="navlink" href="#">Rules</a></li>
+            <li><a class="navlink" href="#">High Scores</a></li>
+        </ul>
+        <div class="profile">
+            <img class="profile-picture" src="src/profile01.jpg" alt="profile picture of the user">
+            <div class="user">
+                <span class="username">Younes</span>
+                <a class="logout" href="$">Sign out</a>
+            </div>
+            
+            
+        </div>
+    </nav>
     <div class="sudoku-container">
         <div class="sudoku-table">
             <div class="cell-group cell-group-top">
