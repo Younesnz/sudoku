@@ -40,7 +40,7 @@ li {
     gap: 20px;
 }
 
-.navlink:hover{
+.navlink:hover, .selected-nav{
     border-bottom: 2px black solid;
 }
 

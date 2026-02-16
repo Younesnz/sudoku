@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudoku</title>
 
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="sudoku.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/sudoku.css">
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
   rel="stylesheet"/>
@@ -19,7 +19,7 @@
             <li><a class="navlink" href="#">Select Game</a></li>
             <li>
                 <div class="difficulty">
-                    <a href="#" class="difficulty-easy">
+                    <a href="/game/easy/" class="difficulty-easy">
                         <i class="ri-user-smile-line"></i> <span>Easy</span>
                     </a>
                     <a href="#" class="difficulty-hard selected">
@@ -31,17 +31,17 @@
             <li><a class="navlink" href="#">High Scores</a></li>
         </ul>
         <div class="profile">
-            <img class="profile-picture" src="src/profile01.jpg" alt="profile picture of the user">
+            <img class="profile-picture" src="/src/profile01.jpg" alt="profile picture of the user">
             <div class="user">
                 <span class="username">Younes</span>
-                <a class="logout" href="$">Sign out</a>
+                <a class="logout" href="#">Sign out</a>
             </div>
             
             
         </div>
     </nav>
     <div class="sudoku-container">
-        <div class="sudoku-table">
+        <div class="sudoku-table table-hard">
             <div class="cell-group cell-group-top">
                 <div class="cell row1 col1 cell-num2"><span>2</span></div>
                 <div class="cell row1 col2 cell-empty"><span>&nbsp;</span></div>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Sudoku</h1>
+        <ul class="links">
+            <li><a class="navlink" href="#">Home</a></li>
+            <li><a class="navlink" href="#">Select Game</a></li>
+            <li>
+                <div class="difficulty">
+                    <a href="/game/easy/" class="difficulty-option">
+                        <i class="ri-user-smile-line"></i> <span>Easy</span>
+                    </a>
+                    <a href="/game/hard/" class="difficulty-option">
+                        <i class="ri-skull-2-line"></i> <span>Hard</span>
+                    </a>
+                </div>
+            </li>
+            <li><a class="navlink" href="#">Rules</a></li>
+            <li><a class="navlink selected-nav" href="#">High Scores</a></li>
+        </ul>
+        <div class="profile">
+            <img class="profile-picture" src="/src/profile01.jpg" alt="profile picture of the user">
+            <div class="user">
+                <span class="username">Younes</span>
+                <a class="logout" href="#">Sign out</a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main class="highscores">
+        <h2>High Scores</h2>
+        <div class="hs-table">
+            <div class="hs-table-all">
+                <h3>all time</h3>
+                <ul class="hs-table-data">
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile01.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile02.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile03.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile04.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile05.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile06.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile07.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile08.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile10.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hs-data">
+                            <span class="hs-rank">1</span>
+                            <img class="profile-picture" src="/src/profile09.jpg" alt="user profile picture">
+                            <span class="username">Younes</span>
+                            <span class="hs-number">5610</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="hs-table-filter">
+                <label for="hs-filter">Last</label>
+                <select name="hs-filter" id="hs-filter">
+                    <option value="week">Week</option>
+                    <option value="week">Month</option>
+                    <option value="week">Year</option>
+                </select>
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+</html>

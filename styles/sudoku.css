@@ -11,9 +11,16 @@
 
 .sudoku-table {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
     width: 500px;
     height: 500px;
+}
+
+.table-hard{
+    grid-template-columns: repeat(3,1fr);  
+}
+
+.table-easy{
+    grid-template-columns: repeat(2,1fr);
 }
 
 .cell-group {
@@ -128,7 +135,7 @@
 .select-num {
     padding: 10px;
     font-size: 24pt;
-    color: #008bc4;
+    color: var(--color-blue-dark);
 }
 
 .select-num:hover {
@@ -138,7 +145,7 @@
 
 .select-erase{
     font-size: 18pt;
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-blue-dark);
     color: white;
     border-radius: 50%;
     width: 20px;
