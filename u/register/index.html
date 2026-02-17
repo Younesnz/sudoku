@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/user.css">
+    
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"/>
+</head>
+    <main>
+        <div class="user-container">
+            <div class="user-top">
+                    <a class="back-btn" href="/">
+                        <i class="ri-arrow-left-circle-line"></i>
+                        <span href="/">Back</span>
+                    </a>
+                <div></div>
+            </div>
+            
+            <img class="user-logo" src="/src/logo.jpg" alt="Sudoku">
+            <h2>Register</h2>
+            <form action="#">
+                
+                <div class="field-container">
+                    <label for="username">Username</label>
+                    <br>
+                    <div class="field-input">
+                        <i class="ri-user-line"></i>
+                        <input name="username" id="username">
+                    </div>
+                    
+                </div>
+                
+                <div class="field-container">
+                    <label for="password">Password</label>
+                    <br>
+                    <div class="field-input">
+                        <i class="ri-asterisk"></i>
+                         <input type="password" name="password" id="password">
+                    </div>
+                   
+                </div>
+
+                <div class="field-container">
+                    <label for="password2">Repeat Password</label>
+                    <br>
+                    <div class="field-input">
+                        <i class="ri-asterisk"></i>
+                         <input type="password" name="password2" id="password2">
+                    </div>
+                   
+                </div>
+                
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+</html>

@@ -26,6 +26,14 @@ li {
     list-style-type: none;
 }
 
+input:focus, 
+select:focus, 
+textarea:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
