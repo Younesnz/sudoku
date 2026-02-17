@@ -87,3 +87,20 @@
     cursor: pointer;
     scale: 1.1;
 }
+
+@media(max-width: 768px) {
+
+    .selection{
+        width: 340px;
+        margin-top: 40px;
+    }
+
+    .selection-container{
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+    }
+
+    .cart{
+        margin-left: 20px;
+    }
+}

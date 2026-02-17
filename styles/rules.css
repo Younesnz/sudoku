@@ -53,3 +53,10 @@ hr{
     color: var(--color-blue-dark);
     scale: 1.2;
  }
+
+ @media(max-width: 768px) {
+    .rules{
+        margin-top: 40px;
+        width: 320px;
+    }
+ }

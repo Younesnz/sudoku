@@ -46,3 +46,21 @@
     cursor: pointer;
     scale: 1.1;
 }
+
+@media(max-width: 768px) {
+    .container{
+        width: 340px;
+    }
+
+    .container img{
+        width: 340px;
+    }
+
+    h2{
+        font-size: 16pt;
+    }
+
+    .action{
+        font-size: 12pt;
+    }
+}
