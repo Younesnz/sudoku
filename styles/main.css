@@ -107,3 +107,33 @@ background-color: black;
     font-size: 8pt;
     color: var(--color-blue-dark);
 }
+
+@media(max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .links{
+        
+        order: 3;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 0 30px;
+        text-align: center;
+        font-size: 12pt;
+        white-space: nowrap;
+        gap: 20px;
+
+    }
+    .links li:nth-child(3){
+        margin: auto;
+        grid-row: 2/span 1;
+        grid-column: 1/span 4;
+    }
+    .navlink{
+        margin: 0;
+    }
+
+    
+
+}
