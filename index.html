@@ -6,7 +6,7 @@
     <title>Sudoku</title>
 
     <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/selection.css">
+    <link rel="stylesheet" href="/styles/home.css">
     
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
@@ -31,17 +31,31 @@
             <li><a class="navlink" href="/rules/">Rules</a></li>
             <li><a class="navlink" href="/high-scores/">High Scores</a></li>
         </ul>
-        <div class="profile">
-            <img class="profile-picture" src="/src/profile01.jpg" alt="profile picture of the user">
-            <div class="user">
-                <span class="username">Younes</span>
-                <a class="logout" href="#">Sign out</a>
-            </div>
-            
+        <div class="nav-user">
+            <a href="/u/login/">Login</a>
+            <span>/</span>
+            <a href="/u/register/">Register</a>
         </div>
     </nav>
     
-    
+    <main class="container">
+        <h2>Welcome to my Sudoku game!</h2>
+        
+        <div class="action-btns">
+            <div class="action">
+                <i class="ri-login-circle-line"></i>
+                <a href="/u/login/">Login</a>
+            </div>
+            
+            <div class="action">
+                <i class="ri-emotion-add-line"></i>
+                <a href="/u/register/">Register</a>
+            </div>
+            
+        </div>
+
+        <img src="/src/sudoku.jpg" alt="Sudoku game">
+    </main>
     
 </body>
 </html>

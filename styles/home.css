@@ -1,0 +1,48 @@
+.nav-user a {
+    font-weight: 700;
+    color: var(--color-blue-dark);
+    margin: 0px 5px;
+
+}
+
+.nav-user a:hover{
+    border-bottom: 2px var(--color-blue-dark) solid;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container img{
+    width: 800px;
+    margin: 60px 0px;
+}
+
+.action-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.action{
+
+    margin-top: 20px;
+    background-color: var(--color-gold);
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    font-size: 14pt;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.action:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
